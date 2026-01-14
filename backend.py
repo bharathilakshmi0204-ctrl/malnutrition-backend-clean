@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import joblib
 import pandas as pd
 import requests
+import os
 
 # -------------------------
 # Load trained objects
